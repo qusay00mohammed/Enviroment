@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  @font-face {
+    font-family: raregularFont;
+    src: url("../fonts/29ltbukraregular.otf");
+  }
+  
+  body{
+    background-color: #FAFAFA;
+  }
+  
+  .fontB {
+    font-family: boldFont;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+  
+  @media (min-width: 1700px) {
+    .container,
+    .container-md,
+    .container-sm {
+      max-width: 85% !important ;
+    }
+  }
+  @media (max-width: 1700px) {
+    .container,
+    .container-md,
+    .container-sm {
+      max-width: 96% !important ;
+    }
+  }
+  
+  @media (max-width: 770px) {
+    .container,
+    .container-md,
+    .container-sm {
+      max-width: 98% !important ;
+    }
+  }
+  
+  
+  /* ////////////////// body flora /////////////////////// */
+
+  .bodyFlora{
+    background-image: url("../images/bgFlora.png");
+    background-size: cover;
+  }
+    
+    .allBodyFlora{
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      padding-top: 40px;
+    }
+
+  @media (max-width:800px) {
+    .allBodyFlora{
+      position: relative;
+      width: 100%;
+      height: 100%;
+      padding-top: 40px;
+      overflow: auto;
+    }
+    .bgFlora img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  .bgFlora img{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .allBodyFlora{
+    display: flex;
+    justify-content: space-between;
+  
+  }
+
+  .eyeForm{
+    margin-left: -30px;
+    margin-top: 0px;
+    cursor: pointer;
+    transform: translateX(-10px);
+  }
+  
+  .loginSide{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .sliderSide{
+    width: 50%;
+  }
+
+  .sliderSide{
+    color: #fff;
+  }
+
+  .sliderF{
+    margin-top:60px;
+
+  }
+
+  .textSlider{
+   
+    position: relative;
+  }
+  .bgNum{
+    font-size: 700px;
+    width: max-content;
+    position: absolute;
+    top: -380px;
+    height: max-content;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #0000007e !important;
+    z-index: -1;
+    font-weight: 800;
+    margin-bottom: auto;
+    display: flex;
+    margin: 0;
+    font-family: Montserrat;
+  }
+
+  .swiper-slide{
+    padding: 125px 0 230px 0;
+  }
+
+  .textSlider h1{
+    line-height: 130%;
+
+  }
+
+  .font1{
+    font-weight: 200;
+    font-size: 60px;
+  }
+  .font2{
+    font-weight: 600;
+    font-size: 60px;
+  }
+  .font3{
+    font-weight: 800;
+    font-size: 80px;
+  }
+
+  .sliderSide .mySwiper{
+    padding-top: 50px;
+    /* width: 100%; */
+  }
+
+  .swiper-pagination{
+    bottom: unset;
+    top: 70px ;
+    left: 5px !important;
+    right: unset;
+    height: max-content;
+    text-align: start;
+    display: flex;
+    gap: 10px;
+    font-weight: 200;
+  }
+
+  .swiper-pagination-bullet{
+    width: 20px;
+    border-radius: 0;
+    height: auto;
+    background-color: transparent;
+    font-size: 45px;
+    position: relative;
+    text-align: center;
+    color: transparent;
+    transition: all 1s ease;
+    
+  }
+  .swiper-pagination-bullet::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 5px;
+    background-color: #fff;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+    border-radius: 5px;
+  }
+
+  .swiper-pagination-bullet-active{
+    color: #23A79B;
+    opacity: 1;
+    transform: translateY(-4px);
+  }
+
+  .swiper-pagination-bullet-active::before{
+    background-color: #23A79B;
+  }
+
+  /* ///////////// */
+
+  .langToggle{
+ 
+    width: 230px;
+    display: flex;
+    text-align: center;
+    border-radius: 50px;
+    overflow: hidden ;
+  }
+
+  .arT{
+    color: #fff !important;
+    width: 50%;
+    padding: 13px 20px;
+    background-color: #23a79c33;
+    backdrop-filter: blur(10px);
+    font-family: raregularFont;
+  }
+  .enT{
+    color: #fff !important;
+    width: 50%;
+    padding: 13px 20px;
+    background-color: #23A79B;
+    
+  }
+
+  .logoFlora{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 400px;
+  }
+
+  .inputForm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 500px;
+  }
+  .inputForm input{
+    padding: 15px;
+    width: 100%;
+    margin: auto;
+    background-color: #23a79c4d;
+    color: #fff;
+    border-radius: 30px;
+    border: none ;
+    outline: none;
+  }
+  .inputForm input::placeholder{
+    color: #fff;
+  }
+
+  .chickBoxF {
+    color: #00FFE8;
+    display: flex;
+    justify-content: space-between;
+  }
+  .chickBoxF input{
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+  }
+
+  .form-check-input:checked{
+    background-color: #23a79c4d;
+  }
+  .form-check-input:focus{
+    box-shadow: none;
+    outline: none;
+  }
+  .chickBoxF a{
+    color: #00FFE8;
+    text-decoration: underline;
+  }
+
+  .btnInputForm{
+    padding: 13px;
+    border: none;
+    border-radius: 30px;
+    background-color: #23A79B;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .clickW {
+    margin-top: 40px;
+    margin-right: auto;
+  }
+  .clickW a{
+    color: #fff;
+  }
+
+  .textV{
+    margin-top: auto;
+    color: #fff;
+    
+  }
+
+  @media (max-width:1800px) {
+    .logoFlora{
+        margin-top: 30px;
+        width: 300px;
+    }
+
+    .font1{
+        font-weight: 200;
+        font-size: 45px;
+      }
+      .font2{
+        font-weight: 600;
+        font-size: 45px;
+      }
+      .font3{
+        font-weight: 800;
+        font-size: 55px;
+      }
+      .sliderF{
+        margin-top: 50px;
+      }
+      .allBodyFlora{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        padding-top: 40px;
+      }
+      .bgNum{
+        font-size: 390px;
+        top:-190px;
+      }
+      .sliderF{
+        margin-top: -20px;
+      }
+
+  }
+
+  @media (max-width:1000px) {
+    .sliderSide{
+        display: none;
+    }
+    .loginSide{
+        width: 100%;
+        height: 100vh;
+    }
+    .allBodyFlora{
+      position: relative;
+      width: 100%;
+      height: auto;
+      padding-top: 40px;
+    }
+  }
+
+  @media (max-width: 400px){
+    .logoFlora {
+        width: 250px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .inputForm{
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+      .loginSide{
+        height: 100vh !important; 
+      }
+  }

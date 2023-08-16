@@ -1,0 +1,52 @@
+@section('meta')
+
+
+<meta name="url" property="og:url" content="https://paeep.ps/Material/Details/37">
+<meta name="title" property="og:title" content="Visit the Diakoni katastrophenhilf Foundation for My Environment">
+<meta name="image" property="og:image" content="https://paeep.ps/uploads/Article/202208/202208292125_afd37342.jpg">
+<meta name="description" property="og:description" content="Palestine Association for Education &amp; Environmental Protection  ، PAEEP">
+<meta name="keywords" property="og:keywords" content="katastrophenhilf " />
+<meta name="news_keywords" property="og:news_keywords" content="katastrophenhilf " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://paeep.ps/Material/News" />
+<meta property="og:title" content="PAEEP News" />
+<meta property="og:image" content="https://paeep.ps/Content/Images/Logo.png">
+
+
+
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="PAEEP News">
+<meta name="twitter:description" content="Palestine Association for Education &amp; Environmental Protection  ، PAEEP">
+<meta name="twitter:url" content="https://paeep.ps/Material/News">
+<meta name="twitter:image" content="https://paeep.ps/Content/Images/Logo.png" />
+<meta property="twitter:site" content />
+<meta property="twitter:creator" content />
+
+
+
+
+{{-- <meta property="fb:admins" content />
+<meta property="fb:app_id" content=" " />
+<meta property="fb:pages" content />
+<meta property="article:section" content="Palestine Association for Education &amp; Environmental Protection  ، PAEEP" />
+<meta property="article:publisher" content> --}}
+
+
+
+@endsection
+
+
+
+
+
+// var url = `storage/images/partners/${image}`;
+
+            // var html = `
+            // <div class="image-input-wrapper w-125px h-125px" style="background-image: url({{ 'asset(`${url}`) }})'></div>
+            // `;
+            // $('#append_image').after(html);
+
+            // modal.find('.modal-body #image').val(image);

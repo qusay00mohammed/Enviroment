@@ -1,0 +1,58 @@
+.aside.aside-dark .aside-logo {
+    background-color: #fff;
+}
+
+.aside.aside-dark {
+    background-color: #fff;
+}
+
+/* .hover-scroll-overlay-y {
+        color: red
+    } */
+
+.aside-dark .menu .menu-item.here>.menu-link .menu-title {
+    color: #548dff !important;
+}
+
+.aside-dark .menu .menu-item .menu-link.active .menu-title {
+    color: #548dff !important;
+}
+
+.aside-dark .menu .menu-item.hover:not(.here)>.menu-link:not(.disabled):not(.active):not(.here) .menu-title,
+.aside-dark .menu .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) .menu-title {
+    color: #009ef7 !important;
+}
+
+.aside-dark .menu .menu-item.show>.menu-link {
+    background-color: hsl(218.57deg 100% 97.25%) !important;
+}
+
+.aside-dark .menu .menu-item .menu-link.active {
+    background-color: hsl(218.57deg 100% 97.25%) !important;
+
+}
+
+.aside-dark .menu .menu-item .menu-link .menu-title {
+    color: hsl(214.29deg 8.33% 32.94%) !important;
+}
+
+.aside-dark .menu .menu-item.here>.menu-link {
+    background-color: hsl(218.57deg 100% 97.25%) !important;
+}
+
+.aside-dark .menu .menu-item.here>.menu-link .menu-arrow:after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 9' fill='%239899ac'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M2.06463 4.42111C1.96161 4.22088 1.9809 3.9637 2.12863 3.78597L5.12847 0.177181C5.31402 -0.046034 5.63049 -0.060261 5.83532 0.145404C6.04015 0.351069 6.05578 0.698744 5.87023 0.921959L3.19406 4.14137L5.84414 7.06417C6.03896 7.27904 6.03835 7.62686 5.84278 7.84105C5.64721 8.05524 5.33073 8.05469 5.13591 7.83982L2.14806 4.54449C2.1141 4.50704 2.08629 4.46541 2.06463 4.42111Z'/%3e%3c/svg%3e") !important;
+}
+
+.aside-dark .menu .menu-item.hover:not(.here)>.menu-link:not(.disabled):not(.active):not(.here),
+.aside-dark .menu .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) {
+    background-color: hsl(218.57deg 100% 97.25%) !important;
+}
+
+::-webkit-scrollbar {
+    width: 5px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: hsl(218.57deg 100% 97.25%) !important;
+}
